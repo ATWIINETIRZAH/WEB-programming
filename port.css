@@ -1,0 +1,223 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  
+  header {
+    background-color: #8989d8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #6c6cd8;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section#about {
+    background-color: #f0f0f0;
+  }
+
+  section#about img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  section#projects {
+    background-color: #f0f0f0;
+  }
+  
+  section#certificates {
+    background-color: #f0f0f0;
+  }
+  
+  section#cv {
+    background-color: #f0f0f0;
+  }
+  
+  section#education {
+    background-color: #f0f0f0;
+  }
+  
+  section#contact {
+    background-color: #f0f0f0;
+    margin-bottom: 90px;
+  }
+  
+  footer {
+    background-color: #8989d8;
+    color: white;
+    text-align: center;
+    padding: 0.0008px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  /* input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  } */
+
+input[type="text"],
+input[type="submit"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+  
+  /* Style for table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  
+ /* Style for form container */
+/* .form-container {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #8989d8;
+    padding: 10px;
+    border-radius: 5px;
+  } */
+  
+  /* Style for form */
+  form {
+    width: 40%;
+    margin: 20px auto;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #674ea7; /* Purple color */
+    color: white;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4f3b78; /* Darker purple on hover */
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
